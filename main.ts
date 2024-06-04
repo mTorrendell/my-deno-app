@@ -3,7 +3,6 @@ import { evaluate } from "./runtime/interpreter.ts";
 import { TYPES } from "./frontend/lexer.ts";
 
 // Read-Eval-Print Loop for inputing variouse commands
-// It's an interactive programming environment that allows you to enter commands -> code source
 repl();
 
 function repl(){
